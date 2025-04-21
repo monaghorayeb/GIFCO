@@ -1,10 +1,5 @@
 import streamlit as st
 import streamlit.components.v1 as components
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-from pycaret.time_series import *
-from sklearn.metrics import mean_squared_error
 
 st.set_page_config(page_title="GIFCO Logistics", layout="wide")
 
