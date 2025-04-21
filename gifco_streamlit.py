@@ -13,10 +13,10 @@ page = st.sidebar.radio(
 if page == "Home":
     st.image("logo.png", width=150)
     st.markdown("""
-      <h1 style="text-align: center;">✈️ GIFCO Logistics & Freight Services 🚢</h1>
+      <h1 style="text-align: center;"> GIFCO Logistics & Freight Services </h1>
     """, unsafe_allow_html=True)
 
-    st.header("🌍 About GIFCO")
+    st.header("About GIFCO")
     st.markdown("""
     GIFCO is a leading logistics and freight company based in **Lebanon**, providing seamless services for the movement of goods across the globe.
 
@@ -35,7 +35,7 @@ if page == "Home":
 
     st.image("networks.png", caption="GIFCO logistics achievements over the years", use_container_width=True)
 
-    st.header("📦 GIFCO Services")
+    st.header("GIFCO Services")
     st.markdown("""
     GIFCO offers a wide range of logistics services, including:
     - **Freight forwarding** across global trade lanes
@@ -47,7 +47,7 @@ if page == "Home":
 
 # KPI Dashboard
 elif page == "KPI Dashboard":
-    st.title("📊 GIFCO KPI Dashboard")
+    st.title("GIFCO KPI Dashboard")
     st.markdown("Explore the live KPIs and product insights below:")
 
     components.iframe(
@@ -59,13 +59,13 @@ elif page == "KPI Dashboard":
 
 # Forecast Dashboard
 elif page == "Forecast Dashboard":
-    st.title("📈 GIFCO Forecast Dashboard")
+    st.title("GIFCO Forecast Dashboard")
     st.markdown("This section shows forecasted sales trends generated using the Theta Model.")
 
     st.image("BestModel.png", caption="6-years Theta Forecast", use_container_width=True)
 
     st.markdown("""
-    ### 🔍 Insights:
+    ### Insights:
     - **Sales Forecast Overview**: The Theta model projects significant sales growth from 2025 to 2030, indicating rising demand and a strong market expansion post-2024. This forecast reflects the company’s growth potential and offers a roadmap for scaling operations to meet future needs.
     - **Data-Driven Growth**: Based on historical data patterns, this forecast suggests a steady upward trajectory, supporting the need for increased investment in production capacity, logistics, and infrastructure. The consistency of the growth trend underscores the long-term sustainability of GIFCO’s business model.
     - **Strategic Planning**: The forecast should guide strategic decisions regarding capital allocation. This includes expanding production capacity, optimizing inventory management, and scaling distribution networks to accommodate increasing demand, particularly starting in 2025.
