@@ -27,13 +27,13 @@ if page == "Home":
     - Expertise in **customs clearance** and supply chain optimization  
     """)
 
-    st.image("logistics_image.png", caption="GIFCO logistics achievements over the years", use_column_width=True)
+    st.image("logistics_image.png", caption="GIFCO logistics achievements over the years", use_container_width=True)
 
     st.markdown("""
     GIFCO is a member of the following accredited logistic networks:  
     """)
 
-    st.image("networks.png", caption="GIFCO logistics achievements over the years", use_column_width=True)
+    st.image("networks.png", caption="GIFCO logistics achievements over the years", use_container_width=True)
 
     st.header("📦 GIFCO Services")
     st.markdown("""
@@ -62,7 +62,7 @@ elif page == "Forecast Dashboard":
     st.title("📈 GIFCO Forecast Dashboard")
     st.markdown("This section shows forecasted sales trends generated using the Theta Model.")
 
-    st.image("BestModel.png", caption="6-years Theta Forecast", use_column_width=True)
+    st.image("BestModel.png", caption="6-years Theta Forecast", use_container_width=True)
 
     st.markdown("""
     ### 🔍 Insights:
