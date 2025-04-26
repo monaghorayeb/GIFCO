@@ -6,7 +6,7 @@ st.set_page_config(page_title="GIFCO Logistics", layout="wide")
 # Sidebar navigation
 page = st.sidebar.radio(
     " ",
-    ["Home", "KPI Dashboard", "Forecast Dashboard"]
+    ["Home", "GIFCO Overview", "Forecast and Insights"]
 )
 
 # Home Page
@@ -46,8 +46,8 @@ if page == "Home":
 
 
 # KPI Dashboard
-elif page == "KPI Dashboard":
-    st.title("GIFCO KPI Dashboard")
+elif page == "GIFCO Overview":
+    st.title("GIFCO Overview Dashboard")
     st.markdown("Explore the live KPIs and product insights below:")
 
     components.iframe(
@@ -58,7 +58,7 @@ elif page == "KPI Dashboard":
     
 
 # Forecast Dashboard
-elif page == "Forecast Dashboard":
+elif page == "Forecast and Insights":
     st.title("GIFCO Forecast Dashboard")
     st.markdown("This section shows forecasted sales trends generated using the Theta Model.")
 
