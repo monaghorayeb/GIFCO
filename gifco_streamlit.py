@@ -62,7 +62,7 @@ elif page == "Forecast and Insights":
     st.title("GIFCO Forecast Dashboard")
     st.markdown("This section shows forecasted sales trends generated using the Theta Model.")
 
-    st.image("BestModel.png", caption="6-years Theta Forecast", use_container_width=True)
+    st.image("BestModel.png", caption="6-years Theta Forecast", use_container_width=False)
 
     st.markdown("""
     ### Insights:
